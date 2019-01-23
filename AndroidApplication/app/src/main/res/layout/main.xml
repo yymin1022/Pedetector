@@ -1,0 +1,19 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+	android:orientation="vertical">
+
+    <Button
+        android:text="Start Service"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+		android:onClick="start"/>
+	
+	<Button
+        android:text="Stop Service"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+		android:onClick="stop"/>
+
+</LinearLayout>
